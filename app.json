@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "AmaraTiee",
+    "slug": "amaratiee",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.amaratieee.amaratiee"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amaratieee.amaratiee"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "74a4b87f-e9e4-4b38-96ea-baba51a741b3"
+      }
+    },
+    "owner": "amaratieee",
+    "updates": {
+      "url": "https://u.expo.dev/74a4b87f-e9e4-4b38-96ea-baba51a741b3"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
